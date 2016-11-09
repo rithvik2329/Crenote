@@ -1,0 +1,23 @@
+{
+  "name": "crenote",
+  "productName": "creNote",
+  "version": "1.0.1",
+  "description": "creNote — Next generation desktop rich content editor.",
+  "homepage": "http://rithvik2329.github.io/Crenote/",
+
+  "repository": {
+    "type": "git",
+      "url": "https://github.com/rithvik2329/r01_crenote.git"
+  },
+
+  "bugs": "https://github.com/ritwik2329/Crenote/issues",
+  "license": "Apache License 2.0",
+
+  "author": {
+    "name": "Fridersoft / Ritwik Rohitashwa",
+    "email": "rithvik2329@gmail.com",
+    "url": "https://github.com/rithvik2329"
+  },
+
+  "main": "main-process.js"
+}
