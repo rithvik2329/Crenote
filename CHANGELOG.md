@@ -2,7 +2,11 @@
 <!-- (for in-app update check) -->
 <!-- currentversion: 0.8.1 -->
 
-##### 0.8.1 : New Features + Major & minor bug fixes
+##### 1.0.4 : Major issue fixes
+- Fixed **undraggable window title bar region** (Major issue)
+- Updated window title bar with a **responsive behavior in case of small window**
+
+##### 1.0.3 : New Features + Major & minor bug fixes
 - Additional ***Embed Content*** tool : insert SoundCloud tracks, Vine videos, and **any kind of other embed content**
 - *Open application folder* button in *About* dialog ([topic #10](https://github.com/n457/Uncolored/issues/10))
 - *Open settings file folder* button in *Settings* dialog ([topic #10](https://github.com/n457/Uncolored/issues/10))
