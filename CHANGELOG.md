@@ -1,6 +1,12 @@
 ## Release Notes
 <!-- (for in-app update check) -->
-<!-- currentversion: 0.8.1 -->
+<!-- currentversion: 1.0.4.2 -->
+
+##### 1.0.4.2 : Major issue fixes
+- **Major issues fixes :**
+
+##### 1.0.4.1 : Major issue fixes
+- **Major issues fixes :**
 
 ##### 1.0.4 : Major issue fixes
 - Fixed **undraggable window title bar region** (Major issue)
