@@ -1,6 +1,6 @@
 {
   "build": {
-    "appId": "com.rithvik2329.Crenote",
+    "appId": "com.rithvik2329.crenote",
     "copyright": "Copyright © 2016 Fridersoft / Ritwik Rohitashwa",
     "asar": false,
     "compression": "maximum",
