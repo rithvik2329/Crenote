@@ -1,13 +1,13 @@
 {
   "name": "crenote",
   "productName": "creNote",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "creNote — Next generation desktop rich content editor.",
   "homepage": "http://rithvik2329.github.io/Crenote/",
 
   "repository": {
     "type": "git",
-      "url": "https://github.com/rithvik2329/cn.git"
+      "url": "https://github.com/rithvik2329/crenote.git"
   },
 
   "bugs": "https://github.com/ritwik2329/cn/issues",
