@@ -50,13 +50,13 @@
       }
     }
   },
-  "scripts" : {
+  "scripts": {
     "gulp": "gulp",
     "dist": "gulp dist"
   },
   "devDependencies": {
     "del": "^2.2.2",
-    "electron": "^1.4.1",
+    "electron": "^1.4.5",
     "electron-builder": "^6.7.7",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.0",

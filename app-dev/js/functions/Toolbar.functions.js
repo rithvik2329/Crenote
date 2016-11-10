@@ -3,10 +3,17 @@ N.Functions.Toolbar = {};
 
 N.Functions.Toolbar.funcAutoPosition = () => {
   const Range = lightrange.getSelectionInfo();
-
   const intToolsWidth = N.$Toolbar.offsetWidth;
-  let intToolsLeft = Range.xStart + (Range.width / 2 - intToolsWidth / 2);
 
+  let intToolsTop = Range.yStart - N.$Toolbar.offsetHeight - 4;
+  // 38px : .tab-bar height
+  if (intToolsTop < 38) {
+    intToolsTop = Range.yStart + Range.height + 5;
+  }
+  N.$Toolbar.style.top = intToolsTop + 'px';
+
+
+  let intToolsLeft = Range.xStart + (Range.width / 2 - intToolsWidth / 2);
   if (intToolsLeft < 7) {
     intToolsLeft = 7;
   }
@@ -16,9 +23,8 @@ N.Functions.Toolbar.funcAutoPosition = () => {
       intToolsLeft = intWindowRightLimit - intToolsWidth;
     }
   }
-
-  N.$Toolbar.style.top = (Range.yStart - N.$Toolbar.offsetHeight - 4) + 'px';
   N.$Toolbar.style.left = intToolsLeft + 'px';
+
 
   // To know if the selection is a range or a caret, for displaying the toolbar or not
   return Range;
@@ -26,7 +32,7 @@ N.Functions.Toolbar.funcAutoPosition = () => {
 
 
 N.Functions.Toolbar.funcResetPosition = () => {
-  N.$Toolbar.style.top = '7px';
+  N.$Toolbar.style.top = '134px';
   N.$Toolbar.style.left = '7px';
 };
 

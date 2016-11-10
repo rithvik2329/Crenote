@@ -7,10 +7,10 @@
 
   "repository": {
     "type": "git",
-      "url": "https://github.com/rithvik2329/r01_crenote.git"
+      "url": "https://github.com/rithvik2329/cn.git"
   },
 
-  "bugs": "https://github.com/ritwik2329/Crenote/issues",
+  "bugs": "https://github.com/ritwik2329/cn/issues",
   "license": "Apache License 2.0",
 
   "author": {
