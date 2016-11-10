@@ -34,7 +34,7 @@ let MainWindow;
 
 
 
-// (Un)colored is a single instance application. Close the second instance window if it exists.
+// creNote is a single instance application. Close the second instance window if it exists.
 // https://github.com/electron/electron/blob/master/docs/api/app.md#appmakesingleinstancecallback
 const boolFirstInstanceExists = App.makeSingleInstance(() => {
   // Someone tried to run a second instance, we should focus our first window.
